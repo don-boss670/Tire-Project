@@ -1,0 +1,95 @@
+environment:
+
+     - MONGO_INITDB_ROOT_USERNAME=admin
+
+     - MONGO_INITDB_ROOT_PASSWORD=password
+
+[...]
+
+
+
+<script>
+
+    function openNewTab() {
+
+      const params = new URLSearchParams(window.location.search);
+
+      const conversationId = params.get('conversationId'); // Example: ?name=John
+
+      
+
+      window.open(`https://digital-uat.mashreq.com/faceapp?conversationId=${conversationId}`, '_blank');
+
+    }
+
+    function getQueryParams() 
+
+<div class="p-6">
+
+<p class="text-gray-700 mb-6">
+
+Mashreq NEO NXT is the perfect digital banking solution for young
+
+minds. Teach your kids financial responsibility with a secure,
+
+parent-controlled account.
+
+>
+
+<img
+
+src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.mashreqbank.com"
+
+alt="QR Code"
+
+class="w-32 h-32"
+
+<div class="relative">
+
+<img
+
+src="https://www.mashreqbank.com/content/dam/mashreqbank/common-assets/neo-nxt/neo-nxt-hero.jpg"
+
+alt="Promo Image"
+
+class="w-full h-auto"
+
+<div class="flex items-center">
+
+<img
+
+src="https://www.mashreq.com/-/jssmedia/Images/logos-mobile/Neo-logo-mob-en.ashx?iar=0&hash=2C256BD0300FBC5E02CD7BEA04AC281F"
+
+alt="Mashreq Logo"
+
+class="h-8 mr-3"
+
+<div class="p-6">
+
+<p class="text-gray-700 mb-6">
+
+Mashreq NEO NXT is the perfect digital banking solution for young
+
+minds. Teach your kids financial responsibility with a secure,
+
+parent-controlled account.
+
+>
+
+<h3 class="text-lg font-bold text-gray-800 mb-4">
+
+Scan to get the Mashreq mobile app!
+
+</h3>
+
+<div
+
+<div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+
+<h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
+
+Welcome to Mashreq Online Banking
+
+</h2>
+
+<div class="flex items-center">
